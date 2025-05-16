@@ -24,4 +24,3 @@ _run:
 
 .PHONY: _run
 
-$(if $(MAKECMDGOALS),$(MAKECMDGOALS): %: _run)
